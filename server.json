@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/jucesp_ficha_completa-mcp",
+  "title": "JUCESP: Ficha Cadastral Completa",
+  "description": "Full company registration sheet at JUCESP (registration, status and history). Platform-hosted, no cr",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/jucesp_ficha_completa-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_jucesp_ficha_completa"
+    }
+  ]
+}
